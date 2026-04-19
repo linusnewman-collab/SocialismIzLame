@@ -1,10 +1,11 @@
 
 
 body {
-    background: black;
+    background: rgb(24, 24, 24);
     color: white;
 }
 .heading {
-    font-family: 'Noto Serif Display'
+    font-family: 'Noto Serif Display', serif;
     
+
 }
