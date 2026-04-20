@@ -6,6 +6,20 @@ body {
 }
 .heading {
     font-family: 'Noto Serif Display', serif;
-    
+}
 
+a:link {
+  color: lightblue;   /* unvisited */
+}
+
+a:visited {
+  color: purple;      /* after clicking */
+}
+
+a:hover {
+  color: white;       /* when mouse is over */
+}
+
+a:active {
+  color: red;         /* while clicking */
 }
