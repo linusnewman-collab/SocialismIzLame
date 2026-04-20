@@ -9,7 +9,7 @@ body {
 }
 
 a:link {
-  color: lightblue;   /* unvisited */
+  color: red;   /* unvisited */
 }
 
 a:visited {
