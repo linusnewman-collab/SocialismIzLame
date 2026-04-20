@@ -4,8 +4,11 @@ body {
     background: rgb(24, 24, 24);
     color: white;
 }
+
+
+
 .heading {
-    font-family: 'Noto Serif Display', serif;
+    font-family: 'Roboto Mono', serif;
 }
 
 a {
