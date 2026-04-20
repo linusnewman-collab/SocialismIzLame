@@ -8,14 +8,18 @@ body {
     font-family: 'Noto Serif Display', serif;
 }
 
-a:link {
+a {
   color: red;   /* unvisited */
 }
 
+a:visited {
+  color: white;      /* after clicking */
+}
+
 a:hover {
-  color: white;       /* when mouse is over */
+  color: red;       /* when mouse is over */
 }
 
 a:active {
-  color: red;         /* while clicking */
+  color: white;         /* while clicking */
 }
