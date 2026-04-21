@@ -1,15 +1,24 @@
 
 
 body {
-    background-image: url(liberty.jpg);
-    background-size: cover; 
-    background-position: center;
-    background-repeat: no-repeat;
-    min-height: 100vh;
-    color: white;
+  background-image: url(liberty.jpg);
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  color: white;
 }
+
+.footer {
+  background-color: black
+}
+
 .heading {
-    font-family: 'IBM Plex Sans Thai Looped', serif;
+  font-family: 'IBM Plex Sans Thai Looped', serif;
+}
+
+h1 {
+  font-size: 40px;
 }
 
 .subtitle {
