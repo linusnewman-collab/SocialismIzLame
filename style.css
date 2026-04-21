@@ -6,11 +6,8 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     min-height: 100vh;
-
-}
     color: white;
 }
-
 .heading {
     font-family: 'IBM Plex Sans Thai Looped', serif;
 }
