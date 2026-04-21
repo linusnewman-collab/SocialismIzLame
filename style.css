@@ -1,11 +1,9 @@
 
 
 body {
-    background-image: liberty.jpg;
+    background-image: url(liberty.jpg);
     color: white;
 }
-
-
 
 .heading {
     font-family: 'IBM Plex Sans Thai Looped', serif;
