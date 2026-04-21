@@ -5,6 +5,7 @@ body {
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
+    min-height: 100vh;
 
 }
     color: white;
@@ -12,6 +13,10 @@ body {
 
 .heading {
     font-family: 'IBM Plex Sans Thai Looped', serif;
+}
+
+.subtitle {
+  color: red;
 }
 
 a {
