@@ -1,16 +1,24 @@
 
 
 body {
-  background-image: url(liberty.jpg);
+  background-image: 
+    linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),
+    url("liberty.jpg");
   background-size: cover; 
   background-position: center;
   background-repeat: no-repeat;
   min-height: 100vh;
-  color: white;
+  color: white;~
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 300;
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
 }
 
 .footer {
-  background-color: black
+  background-color: black;
+  background-image: none;
 }
 
 .heading {
@@ -19,6 +27,15 @@ body {
 
 h1 {
   font-size: 40px;
+}
+
+h3 {
+  font-size: 30px;
+  font-family: 'IBM Plex Sans Thai Looped', serif;
+}
+
+h6 {
+  font-size: 20px;
 }
 
 .subtitle {
