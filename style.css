@@ -11,14 +11,19 @@ body {
   background-attachment: fixed;
   min-height: 100vh;
   color: white;~
-  font-family: Georgia, "Times New Roman", serif;
   font-weight: 300;
   max-width: 900px;
   margin: auto;
-  max-width: 90ch;
+  max-width: 105ch;
   margin: 0 auto;
   text-align: justify;
   line-height: 1.6;
+
+}
+
+.all {
+  border: 1.5px solid white;
+  padding: 29px;
 }
 
 .footer {
@@ -27,38 +32,63 @@ body {
 }
 
 .heading {
-  font-family: 'IBM Plex Sans Thai Looped', serif;
+  font-family: 'Space Grotesk', serif;
 }
 
 h1 {
   font-size: 40px;
+  font-weight: normal;
+  font-size: 46px;
+  font-family: "Space Grotesk", serif;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  
+}
+
+.subtitle {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: normal;
 }
 
 h3 {
   font-size: 30px;
-  font-family: 'IBM Plex Sans Thai Looped', serif;
+  font-family: "Space Grotesk", serif;
+  font-weight: normal;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
-p {
+p, h6 {
   font-size: 20px;
+  font-family: 'Inter', sans-serif;
+  font-weight: normal;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
-.subtitle {
-  color: red;
-}
-
-a {
-  color: red;   /* unvisited */
-}
 
 a:visited {
-  color: white;      /* after clicking */
+  color: white;
 }
 
 a:hover {
-  color: red;       /* when mouse is over */
+  text-decoration: none;
 }
 
 a:active {
-  color: white;         /* while clicking */
+  color: white; 
+}
+
+p::first-letter {
+  float: left;
+  font-size: 64px;
+  line-height: 1;
+  margin-right: 0.1em;
+}
+
+.me {
+  float: right;
+  margin: 0 0 10px 15px;
+  max-width: 250px;
 }
